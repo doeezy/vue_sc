@@ -17,6 +17,11 @@ const routes = [
     component: () => import("@/common/components/Chat.vue"),
   },
   {
+    path: "/button",
+    name: "button",
+    component: () => import("@/common/components/ButtonMenu.vue"),
+  },
+  {
     path: "/vueMain",
     name: "vueMain",
     component: () => import("@/common/components/Main.vue"),
