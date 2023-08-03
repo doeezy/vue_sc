@@ -23,13 +23,13 @@
                 message: "",
                 logs: [],
               buttonList: [
-                { key: "1", type:"m", name: "메인으로"},
-                { key: "2", type:"m",name: "놀이교실"},
-                { key: "3", type:"m",name: "노래교실"},
-                { key: "4", type:"m",name: "생방송"},
-                { key: "2-1", type:"b",name: "재생"},
-                { key: "2-2", type:"b",name: "정지"},
-                { key: "5", type:"b",name: "목록으로"}
+                { key: "M-1", name: "메인으로"},
+                { key: "M-2",name: "놀이교실"},
+                { key: "M-3",name: "노래교실"},
+                { key: "M-4", name: "생방송"},
+                { key: "B-1", name: "재생"},
+                { key: "B-2", name: "정지"},
+                { key: "B-3", name: "뒤로가기"}
               ]
             }
         },
@@ -50,8 +50,8 @@
                       comId: "test",
                       comName: "테스트경로당",
                       btn: btn.key,
-                      type: btn.type,
-                      btnNm: btn.name
+                      btnNm: btn.name,
+                      conTime: new Date()
                     };
                     this.stompClient.send("/pub/btn", JSON.stringify(msg), {});
                 }
