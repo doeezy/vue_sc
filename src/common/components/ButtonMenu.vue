@@ -29,7 +29,9 @@
                 { key: "M-4", name: "생방송"},
                 { key: "B-1", name: "재생"},
                 { key: "B-2", name: "정지"},
-                { key: "B-3", name: "뒤로가기"}
+                { key: "B-3", name: "뒤로가기"},
+                { key: "B-5", name: "다음"},
+                { key: "B-4", name: "이전"}
               ]
             }
         },
