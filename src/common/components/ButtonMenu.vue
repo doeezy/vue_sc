@@ -27,7 +27,7 @@
                 { key: "M-2",name: "놀이교실"},
                 { key: "M-3",name: "노래교실"},
                 { key: "M-4", name: "생방송"},
-                { key: "M-5", name: "테스트"},
+                { key: "B-8", name: "확인"},
                 { key: "B-1", name: "재생"},
                 { key: "B-2", name: "정지"},
                 { key: "B-3", name: "뒤로가기"},
